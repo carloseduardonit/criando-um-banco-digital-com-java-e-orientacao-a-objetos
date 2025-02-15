@@ -13,7 +13,7 @@ public class BancoDigital {
      */
     public static void main(String[] args) {
         final Conta contapoupanca;
-        contapoupanca = new ContaPoupanca().withNomeCliente().withnNumeroConta().withAgencia();
+        contapoupanca = new ContaPoupanca().withConta();
         contapoupanca.impressaoExtrato();
         contapoupanca.deposito(100);
         

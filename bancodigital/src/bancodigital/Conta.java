@@ -1,6 +1,7 @@
 
 package bancodigital;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -32,8 +33,7 @@ public abstract class Conta {
     // Metodo utilitarios
     private boolean isValorValid(String str) {
 
-        return str != null
-                && str.isBlank()
+        return str.isBlank()
                 && str.isEmpty();
     }
     
@@ -83,7 +83,7 @@ public abstract class Conta {
     }
 
     public boolean isNumeroContaValid() {
-        return isValorValid(numeroConta);
+        return isValorValid(numeroConta, "Numero da Conta inválido");
     }
 
     
@@ -101,18 +101,26 @@ public abstract class Conta {
     }
 
     public boolean isAgenciaValid() {
-        return isValorValid(agencia);
+        return isValorValid(agencia,"Agência inválida");
     }
     
 
     // Metodo para Saldo
     public Conta withSaldo() {
-        do {
-            System.out.println("Por favor, digite o seu Saldo inicial:");
-            this.saldo = terminal.nextDouble();
-        } while (isSaldoValid());
-        return this;
-    } 
+        try {
+            do {
+                System.out.println("Por favor, digite o seu Saldo inicial:");
+                this.saldo = terminal.nextDouble();
+            } while (isSaldoValid());
+            return this;
+        
+        } catch (InputMismatchException ime) {
+            System.out.println("Saldo inválido");
+            terminal.nextLine();
+            return withSaldo();
+
+        }  
+    }
 
     public double getSaldo() {
         return saldo;
