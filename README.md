@@ -30,9 +30,8 @@ Permite que você defina uma classe filha que reutiliza (herda), estende ou modi
 > - Acelera o tempo de desenvolvimento
 > - Diminui a verbosidade das classes de mapeamento JPA, DTOs e Beans
 > - Fornece outras funcionalidades como lazy loading, thread safety e immutability
-
-[como-usar-o-lombok-em-projetos-java](https://www.dio.me/articles/como-usar-o-lombok-em-projetos-java)
-[ou Baixa Lombok.JAR(OFICIAL)](https://projectlombok.org/download)
+> - [como-usar-o-lombok-em-projetos-java](https://www.dio.me/articles/como-usar-o-lombok-em-projetos-java)
+> - [ou Baixa Lombok.JAR(OFICIAL)](https://projectlombok.org/download)
 
 ---
 
