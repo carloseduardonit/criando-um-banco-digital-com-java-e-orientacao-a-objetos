@@ -18,6 +18,7 @@ public abstract class Conta {
     private String numeroConta;
     private String agencia;
     private String nomeCliente;
+    private String senha;
     private double saldo =0;
     private String tipo;
 

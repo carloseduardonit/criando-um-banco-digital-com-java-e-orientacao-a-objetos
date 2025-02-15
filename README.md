@@ -20,7 +20,19 @@ Permite que você defina uma classe filha que reutiliza (herda), estende ou modi
 
 ### Polimorfismo
 
-Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+> __Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.__
+
+### O que é Lombok?
+
+> - Gera automaticamente métodos como getters, setters, equals, hashCode, e construtores
+> - Torna o código mais limpo e fácil de manter
+> - Reduz a chance de bugs
+> - Acelera o tempo de desenvolvimento
+> - Diminui a verbosidade das classes de mapeamento JPA, DTOs e Beans
+> - Fornece outras funcionalidades como lazy loading, thread safety e immutability
+
+[como-usar-o-lombok-em-projetos-java](https://www.dio.me/articles/como-usar-o-lombok-em-projetos-java)
+[ou Baixa Lombok.JAR(OFICIAL)](https://projectlombok.org/download)
 
 ---
 

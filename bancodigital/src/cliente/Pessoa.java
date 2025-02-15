@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cliente;
+
+import java.util.Date;
+import lombok.*;
 
 /**
  *
  * @author Carlos
  */
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public abstract class Pessoa {
-    
+
+    private Long id;
+    private String nome;
+    private String documento;
+    private Date dataInicial;
+
 }
