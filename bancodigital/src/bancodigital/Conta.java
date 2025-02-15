@@ -1,6 +1,7 @@
 
 package bancodigital;
 
+import cliente.*;
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
@@ -12,6 +13,8 @@ import java.util.Scanner;
 public abstract class Conta {
 
     private static Scanner terminal = new Scanner(System.in);
+    private static PessoaFisica pessoaFisica;
+    private static PessoaJuridica pessoaJuridica;
     private String numeroConta;
     private String agencia;
     private String nomeCliente;
