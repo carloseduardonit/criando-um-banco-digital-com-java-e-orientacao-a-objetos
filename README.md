@@ -1,5 +1,7 @@
 # Criando um Banco Digital com Java e Orientação a Objetos
 
+em Agradecimento [DIO](https://digitalinnovation.one/) e [Venilton FalvoJr](https://github.com/falvojr)
+
 ## 02/08/2021 - Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos
 
 **Desafio:** Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário: `“Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”`
@@ -19,8 +21,6 @@ Permite que você defina uma classe filha que reutiliza (herda), estende ou modi
 ### Polimorfismo
 
 Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
-
-[text](https://refactoring.guru/pt-br/design-patterns/builder/java/example#lang-features)
 
 ---
 
@@ -67,7 +67,6 @@ Contribuições são muito bem-vindas! Para colaborar:
 2. Crie uma branch com a sua feature ou correção (git checkout -b minha-feature).
 3. Realize suas alterações e faça o commit (git commit -m 'Descrição da alteração').
 4. Envie a branch (git push origin minha-feature).
+5. Abra um Pull Request para que suas alterações sejam avaliadas.
 
-Abra um Pull Request para que suas alterações sejam avaliadas.
-
-Feito com ❤️ por @carloseduardonit.
+Feito com ❤️ por [@carloseduardonit](https://github.com/carloseduardonit).
