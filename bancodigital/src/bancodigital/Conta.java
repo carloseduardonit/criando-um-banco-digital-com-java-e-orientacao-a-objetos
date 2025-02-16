@@ -70,7 +70,7 @@ public abstract class Conta {
     /**
      * Metodo para verificar se o valor é valido
      * 
-     * @param valor
+     * @param str
      * @param msg
      * @return
      */
